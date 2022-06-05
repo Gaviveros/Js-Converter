@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600&display=swap" 
+    rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS Converter</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li class="icon"><a href="index.html"><b style="color: rgb(255, 242, 58);">JS</b> Converter</a></li>
+                <ul id="login"> 
+                <button id="loginBtn" onclick="pushLogin()" class="btn-favorito" style="margin-top: 15px;">Login</button>
+        </nav>
+    </header>
+    <main>
+
+        <div class="tcontainer" ><div class="ticker-wrap"><div class="ticker-move">
+
+            <div class="ticker-item" id="data"><a class="slider d-flex align-items-center">
+                      </a></div>
+              </div>
+            </div>
+        </div>
+
+        <div id="inicio">
+
+        </div>
+
+        <div id="contenedor">
+            <div id="contenedor-monedas">
+
+            </div>
+        </div>
+
+        <div id="contenedorMensajeCarrito">
+            <div id="confirmacion">
+                <h3 id="titulo"></h3>
+                <button id="boton"></button>
+            </div>
+        </div>
+
+        <div id="contenedorCarrito">
+            <div id="misTransacciones">
+            <h2 style="text-align: center;">Mi carrito de compras</h2> 
+                <table id="miTabla">
+                    <thead>
+                        <tr>
+                        <th>Usuario</th>
+                        <th>Moneda</th>
+                        <th>Gasto</th>
+                        <th>Adquisición</th>
+                        <th>Fecha</th>
+                        </tr>
+                        </thead>
+                </table>
+            </div>
+        </div>
+
+        <div id="historial">
+            <div id="misTransaccionesMov">
+            <h2 id="colorHistorial">Mis compras realizadas</h2> 
+                <table id="miTablaMov">
+                    <thead>
+                        <tr>
+                        <th>Adquisición</th>
+                        <th>Fecha</th>
+                        </tr>
+                        </thead>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="textFooter">
+            <a href="index.html" class="nombreEstilo"><b style="color: rgb(255, 242, 58);">JS</b> 
+                Converter</a>
+        </div>
+      </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/elements.js"></script>
+    <script src="js/bookstores/moments.js"></script>
+    <script src="js/bookstores/sweetAlert.js"></script>
+</body>
+</html>
